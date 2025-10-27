@@ -15,7 +15,7 @@ process.on('uncaughtException', err => {
 });
 
 
-
+// dotenv.config({ path: "backend/config/config.env" }); 
 
 //Setting up cloudinary configuration
 cloudinary.config({
